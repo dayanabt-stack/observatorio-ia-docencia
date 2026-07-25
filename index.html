@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Observatorio de IA para la Docencia · UTFSM (Prototipo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<div class="proto-banner">
+  <b>PROTOTIPO</b> — colores, fondo azul y logo institucionales ya aplicados. Quedan pendientes: contenidos de ejemplo y validación final con la Dirección General de Comunicaciones.
+</div>
+
+<header>
+  <div class="nav-row">
+    <div class="brand">
+      <img class="brand-logo-h" src="assets/logo-usm-blanco.svg" alt="Universidad Técnica Federico Santa María">
+      <div class="brand-divider"></div>
+      <div class="brand-text">
+        <div class="name">Observatorio IA</div>
+        <div class="sub">Docencia · UTFSM</div>
+      </div>
+    </div>
+    <nav class="primary" aria-label="Navegación principal">
+      <a href="#que-es">Qué es</a>
+      <a href="#ejes">Ejes</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#actualidad">Actualidad</a>
+      <a href="#comunidad">Comunidad</a>
+      <a href="#contacto" class="btn btn-ghost">Contacto</a>
+      <a href="#comunidad" class="btn btn-primary">Sumarse</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu">☰ Menú</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#que-es">Qué es</a>
+    <a href="#ejes">Ejes de trabajo</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#actualidad">Actualidad</a>
+    <a href="#casos">Casos de uso</a>
+    <a href="#formacion">Formación</a>
+    <a href="#investigacion">Investigación</a>
+    <a href="#comunidad">Comunidad</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">OBSERVATORIO DE IA PARA LA DOCENCIA · UTFSM</div>
+        <h1>La IA ya está en la sala de clases. Este observatorio existe para mirarla <em>de cerca</em>.</h1>
+        <p class="lead">Reunimos evidencia, formamos a los profesores y construimos criterios comunes sobre el uso de inteligencia artificial en la docencia de la Universidad Técnica Federico Santa María.</p>
+        <div class="cta-row">
+          <a href="#ejes" class="btn btn-primary">Ver los ejes de trabajo</a>
+          <a href="#comunidad" class="btn btn-ghost">Sumarse a la comunidad docente</a>
+        </div>
+        <div class="meta-line">Iniciativa académica USM — "Ex Umbra In Solem", de la sombra a la luz</div>
+      </div>
+      <div class="radar-scope" aria-hidden="true">
+        <div class="radar-sweep"></div>
+        <span class="blip" style="top:22%; left:62%;"></span>
+        <span class="blip-label" style="top:18%; left:66%;">Tutores adaptativos</span>
+        <span class="blip" style="top:68%; left:28%; animation-delay:.6s;"></span>
+        <span class="blip-label" style="top:71%; left:6%;">Evaluación auténtica</span>
+        <span class="blip" style="top:40%; left:18%; animation-delay:1.2s;"></span>
+        <span class="blip-label" style="top:35%; left:2%;">Detección de uso de IA</span>
+        <span class="blip" style="top:78%; left:70%; animation-delay:1.8s;"></span>
+        <span class="blip-label" style="top:81%; left:58%;">IA generativa en clases</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUÉ ES -->
+  <section class="section" id="que-es">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">CONCEPTO</div>
+        <h2>No es un boletín de noticias sobre IA</h2>
+        <p>Es un punto de observación permanente: seguimos lo que pasa con la IA en la docencia universitaria, lo traducimos en criterios y recursos concretos para los profesores de la USM, y hacemos seguimiento de cómo cambia con el tiempo.</p>
+      </div>
+      <div class="roles-grid">
+        <div class="role-card">
+          <div class="tag">OBSERVAR</div>
+          <h3>Seguimiento activo</h3>
+          <p>Monitoreamos herramientas, políticas y prácticas de IA en educación superior, en Chile y el mundo.</p>
+        </div>
+        <div class="role-card">
+          <div class="tag">FORMAR</div>
+          <h3>Formación aplicada</h3>
+          <p>Traducimos esa observación en talleres, guías y recursos que un profesor puede usar la próxima semana.</p>
+        </div>
+        <div class="role-card">
+          <div class="tag">ACOMPAÑAR</div>
+          <h3>Comunidad docente</h3>
+          <p>Sostenemos un espacio donde los profesores comparten qué funciona -y qué no- en sus propias salas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EJES -->
+  <section class="section tinted" id="ejes">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">EJES DE TRABAJO</div>
+        <h2>Seis frentes que se sostienen en paralelo</h2>
+        <p>No son etapas de un proceso: son líneas de trabajo simultáneas, cada una con su propio ritmo.</p>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-blue-bright);">VT</div>
+          <h3>Vigilancia de tendencias</h3>
+          <p>Seguimiento de herramientas, modelos y prácticas emergentes de IA en educación superior.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-gold);">FD</div>
+          <h3>Formación docente</h3>
+          <p>Talleres, guías e itinerarios de capacitación para incorporar IA en la enseñanza.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-green);">BP</div>
+          <h3>Buenas prácticas y casos</h3>
+          <p>Repositorio de experiencias reales de profesores USM usando IA en sus cursos.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-red);">EU</div>
+          <h3>Ética y uso responsable</h3>
+          <p>Lineamientos institucionales sobre integridad académica y uso de IA generativa.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-blue-bright);">IN</div>
+          <h3>Investigación aplicada</h3>
+          <p>Estudios propios sobre el impacto de la IA en el aprendizaje y la evaluación.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="monogram" style="--mono-color: var(--accent-green);">CP</div>
+          <h3>Comunidad de práctica</h3>
+          <p>Espacio de intercambio entre docentes de distintos departamentos y sedes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section class="section" id="recursos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">RECURSOS PARA DOCENTES</div>
+        <h2>Lo que un profesor puede usar hoy</h2>
+      </div>
+      <div class="resources-cols">
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:6px; color:var(--text-muted); font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.06em;">Guías rápidas</h3>
+          <ul class="guide-list">
+            <li>Cómo diseñar evaluaciones que resistan (o incorporen) IA generativa</li>
+            <li>Prompts de apoyo para planificar clases y rúbricas</li>
+            <li>Checklist de citación y uso transparente de IA en trabajos</li>
+            <li>Qué decirle a un curso sobre el uso permitido de IA</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:16px; color:var(--text-muted); font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.06em;">Herramientas evaluadas</h3>
+          <div class="tools-grid">
+            <div class="tool-card">
+              <div class="name">NotebookLM</div>
+              <div class="status ok">Recomendada</div>
+              <p style="margin-top:8px; font-size:.85rem; color:var(--text-muted);">Síntesis y control de lecturas de curso.</p>
+            </div>
+            <div class="tool-card">
+              <div class="name">GitHub Copilot</div>
+              <div class="status ok">Recomendada</div>
+              <p style="margin-top:8px; font-size:.85rem; color:var(--text-muted);">Cursos de programación, con criterios de uso claros.</p>
+            </div>
+            <div class="tool-card">
+              <div class="name">ChatGPT Edu</div>
+              <div class="status pilot">En evaluación piloto</div>
+              <p style="margin-top:8px; font-size:.85rem; color:var(--text-muted);">Resultados preliminares en dos departamentos.</p>
+            </div>
+            <div class="tool-card">
+              <div class="name">Detectores de IA</div>
+              <div class="status restricted">Uso restringido</div>
+              <p style="margin-top:8px; font-size:.85rem; color:var(--text-muted);">Ver política institucional antes de usarlos como prueba.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTUALIDAD -->
+  <section class="section tinted" id="actualidad">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">ACTUALIDAD</div>
+        <h2>Lo que estamos siguiendo esta semana</h2>
+      </div>
+      <span class="example-tag">Contenido de ejemplo</span>
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="cat cat-analisis">Análisis</div>
+          <h3>¿Qué cambia con los nuevos modelos de razonamiento en tareas de programación?</h3>
+          <div class="date">Julio 2026</div>
+          <p>Una mirada a cómo estos modelos alteran los cursos introductorios de programación.</p>
+        </div>
+        <div class="news-card">
+          <div class="cat cat-politica">Política institucional</div>
+          <h3>La USM publica sus primeros lineamientos sobre IA generativa en evaluaciones</h3>
+          <div class="date">Julio 2026</div>
+          <p>Un marco común para departamentos que ya usan IA generativa en sus cursos.</p>
+        </div>
+        <div class="news-card">
+          <div class="cat cat-evento">Evento</div>
+          <h3>Taller: diseño de rúbricas resistentes a IA generativa</h3>
+          <div class="date">Agosto 2026 · Cupos abiertos</div>
+          <p>Sesión práctica para rediseñar instrumentos de evaluación existentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASOS DE USO -->
+  <section class="section" id="casos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">CASOS DE USO EN AULA</div>
+        <h2>Lo que ya están probando los propios docentes USM</h2>
+      </div>
+      <span class="example-tag">Testimonios de ejemplo — reemplazar por casos reales</span>
+      <div class="cases-grid">
+        <div class="case-card">
+          <blockquote>"Dejamos que usen IA para el primer borrador y evaluamos lo que hacen después con ese borrador."</blockquote>
+          <div class="role">Docente · Depto. de Informática</div>
+        </div>
+        <div class="case-card">
+          <blockquote>"El curso ahora incluye una sesión sobre cuándo no conviene usar un asistente de IA."</blockquote>
+          <div class="role">Docente · Depto. de Industrias</div>
+        </div>
+        <div class="case-card">
+          <blockquote>"Usamos IA para generar variaciones de problemas, no para resolverlos por los estudiantes."</blockquote>
+          <div class="role">Docente · Depto. de Física</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMACIÓN -->
+  <section class="section tinted" id="formacion">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">FORMACIÓN Y TALLERES</div>
+        <h2>Próximas actividades</h2>
+      </div>
+      <span class="example-tag">Calendario de ejemplo</span>
+      <ul class="workshops">
+        <li>
+          <div class="wtitle">Primeros pasos con IA generativa en el aula</div>
+          <div class="wmeta">Presencial · Casa Central Valparaíso</div>
+          <div class="wseats">18 cupos</div>
+        </li>
+        <li>
+          <div class="wtitle">Rúbricas resistentes a IA generativa</div>
+          <div class="wmeta">Online · 90 min</div>
+          <div class="wseats">Cupos abiertos</div>
+        </li>
+        <li>
+          <div class="wtitle">Integridad académica en la era de la IA</div>
+          <div class="wmeta">Presencial · Sede Vitacura</div>
+          <div class="wseats">Lista de espera</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- INVESTIGACIÓN -->
+  <section class="section" id="investigacion">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">INVESTIGACIÓN Y POLÍTICAS</div>
+        <h2>La evidencia y las reglas que la acompañan</h2>
+      </div>
+      <div class="research-cols">
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:16px; color:var(--text-muted); font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.06em;">Publicaciones</h3>
+          <a class="doc-link" href="#"><span>Impacto de asistentes de código en cursos iniciales de programación</span><span class="ext">PDF</span></a>
+          <a class="doc-link" href="#"><span>Percepción docente sobre IA generativa en evaluación, USM 2026</span><span class="ext">PDF</span></a>
+        </div>
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:16px; color:var(--text-muted); font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.06em;">Políticas institucionales</h3>
+          <a class="doc-link" href="#"><span>Lineamientos USM sobre uso de IA generativa en la docencia (borrador)</span><span class="ext">PDF</span></a>
+          <a class="doc-link" href="#"><span>Guía de integridad académica y uso de IA</span><span class="ext">PDF</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMUNIDAD -->
+  <section class="section tinted" id="comunidad">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">COMUNIDAD</div>
+        <h2>Sumarse al observatorio</h2>
+        <p>Recibe novedades y participa en el canal de discusión entre docentes.</p>
+      </div>
+      <div class="community-grid">
+        <div class="form-card">
+          <label for="email">Correo institucional</label>
+          <input id="email" type="email" placeholder="nombre.apellido@usm.cl">
+          <button type="button" class="btn btn-primary" onclick="showToast('newsletterToast')">Suscribirme al boletín</button>
+          <div class="toast" id="newsletterToast">Prototipo de diseño — sin backend conectado aún.</div>
+        </div>
+        <div class="channel-card">
+          <h3>Canal de docentes</h3>
+          <p>Un espacio para compartir prompts, dudas y experiencias de aula entre profesores de distintos departamentos.</p>
+          <a href="#" class="btn btn-ghost">Unirme al canal (Teams/Discord)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">CONTACTO</div>
+        <h2>Escribir al equipo del observatorio</h2>
+      </div>
+      <div class="community-grid">
+        <div class="form-card">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Tu nombre">
+          <label for="correo">Correo</label>
+          <input id="correo" type="email" placeholder="tu.correo@usm.cl">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Cuéntanos qué necesitas o qué te gustaría ver en el observatorio"></textarea>
+          <button type="button" class="btn btn-primary" onclick="showToast('contactToast')">Enviar mensaje</button>
+          <div class="toast" id="contactToast">Prototipo de diseño — sin backend conectado aún.</div>
+        </div>
+        <div class="impl-note">
+          <h3>Guía para activar la marca oficial</h3>
+          <ol>
+            <li class="done">Colores oficiales aplicados: azul #004B85, verde #008452, rojo #D60019, amarillo #F7AE00 y negro #000000.</li>
+            <li class="done">Fondo oscuro pasado de negro a un azul derivado del #004B85, con la cabecera en el azul institucional sólido (como en usm.cl).</li>
+            <li class="done">Logo oficial incorporado tal como lo usa usm.cl en su cabecera (texto en blanco + escudo a color, SVG vectorial), en la cabecera y también en el pie de página, en un tamaño más prominente.</li>
+            <li>Confirmar tipografías institucionales con la Dirección General de Comunicaciones (aquí se usan Source Serif 4 / IBM Plex como referencia).</li>
+            <li>Retirar el banner superior "Prototipo" y las etiquetas "contenido de ejemplo" antes de publicar.</li>
+            <li>Conectar los formularios de boletín y contacto a un backend real.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="footer-logo-h" src="assets/logo-usm-blanco.svg" alt="Universidad Técnica Federico Santa María">
+        <div class="brand-text">
+          <div class="name">Observatorio IA</div>
+          <div class="sub">Docencia · UTFSM</div>
+        </div>
+        <p>Un punto de observación permanente sobre el uso de inteligencia artificial en la docencia de la Universidad Técnica Federico Santa María.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Observatorio</h4>
+        <a href="#que-es">Qué es</a>
+        <a href="#ejes">Ejes de trabajo</a>
+        <a href="#investigacion">Investigación</a>
+        <a href="#comunidad">Comunidad</a>
+      </div>
+      <div class="footer-col">
+        <h4>Recursos</h4>
+        <a href="#recursos">Guías para docentes</a>
+        <a href="#recursos">Herramientas evaluadas</a>
+        <a href="#formacion">Talleres</a>
+      </div>
+      <div class="footer-col">
+        <h4>Universidad</h4>
+        <a href="https://usm.cl" target="_blank" rel="noopener">Sitio institucional USM</a>
+        <a href="#">Dirección General de Docencia</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Universidad Técnica Federico Santa María — prototipo interno</span>
+      <span>Ex Umbra In Solem</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
