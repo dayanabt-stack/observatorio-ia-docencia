@@ -241,6 +241,19 @@
   .workshops .wseats{ font-family: var(--font-mono); font-size:.74rem; color: var(--accent-gold); text-align:right; }
 
   .research-cols{ display:grid; grid-template-columns: 1fr 1fr; gap:40px; }
+
+  .team-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:20px; }
+  .team-card{ background: var(--bg-panel-2); border:1px solid var(--line); border-radius:8px; padding:24px; }
+  .avatar{
+    width:52px; height:52px; border-radius:50%; border:1px solid var(--mono-color, var(--accent-gold));
+    display:flex; align-items:center; justify-content:center;
+    font-family: var(--font-mono); font-size:.82rem; color: var(--mono-color, var(--accent-gold));
+    margin-bottom:16px;
+  }
+  .team-card h3{ font-size:1rem; margin-bottom:2px; }
+  .team-card .role{ font-family: var(--font-mono); font-size:.68rem; color: var(--accent-gold); text-transform:uppercase; letter-spacing:.05em; }
+  .team-card .dept{ font-family: var(--font-mono); font-size:.72rem; color: var(--text-muted); margin:6px 0 12px; }
+  .team-card p.bio{ font-size:.86rem; color: var(--text-muted); }
   .doc-link{
     display:flex; justify-content:space-between; align-items:center;
     padding:16px; border:1px solid var(--line); border-radius:6px; margin-bottom:12px;
@@ -298,6 +311,7 @@
     .radar-scope{ max-width:300px; }
     .roles-grid, .pillars-grid, .news-grid, .cases-grid, .tools-grid{ grid-template-columns:1fr; }
     .resources-cols, .research-cols, .community-grid{ grid-template-columns:1fr; }
+    .team-grid{ grid-template-columns: 1fr 1fr; }
     .footer-grid{ grid-template-columns: 1fr 1fr; }
     .workshops li{ grid-template-columns:1fr; row-gap:6px; }
     .workshops .wseats{ text-align:left; }
